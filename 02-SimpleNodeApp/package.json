@@ -1,0 +1,15 @@
+{
+  "name": "simplenodefsapp",
+  "version": "1.0.0",
+  "description": "Simple FS using NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "FS",
+    "NodeJs"
+  ],
+  "author": "yogesh7401",
+  "license": "ISC"
+}
