@@ -8,5 +8,3 @@ http.createServer(function (request, response) {
     response.write(JSON.stringify(internsData))
     response.end()
 }).listen(PORT)
-
-http://127.0.0.1:4545/
