@@ -1,0 +1,16 @@
+{
+  "name": "03-httpserver",
+  "version": "1.0.0",
+  "description": "Http server using NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Server",
+    "http",
+    "Node"
+  ],
+  "author": "yogesh7401",
+  "license": "ISC"
+}
