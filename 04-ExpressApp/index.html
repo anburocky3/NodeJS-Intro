@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interns Data</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Add Intern</h1>
+    
+            <form action="/addIntern" method="POST">
+                <input type="text" name="name" placeholder="Enter the name">
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div>
+            <h1>Remove Intern</h1>
+            <form action="/removeIntern" method="post">
+                <input type="hidden" name="_method" value="DELETE"/>
+                <input type="number" name="id" placeholder="Enter Intern Id">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div>
+            <h1>Modify Intern</h1>
+
+            <form action="/modifyIntern" method="POST">
+                <input type="hidden" name="_method" value="PUT"/> 
+                <input type="number" name="id" placeholder="Enter Intern Id"> <br><br>
+                <input type="string" name="name" placeholder="Enter Intern Name">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
